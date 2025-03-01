@@ -12,10 +12,15 @@ public class Main {
 //        System.out.println("Instance 3 hash:" + instance3.hashCode());
 //        System.out.println("Instance 4 hash:" + instance4.hashCode());
         
-        StaticBlockSingleton instance5 = StaticBlockSingleton.getInstance();
-        StaticBlockSingleton instance6 = StaticBlockSingleton.getInstance();
-        System.out.println("Instance 5 hash:" + instance5.hashCode());
-        System.out.println("Instance 6 hash:" + instance6.hashCode());
+//        StaticBlockSingleton instance5 = StaticBlockSingleton.getInstance();
+//        StaticBlockSingleton instance6 = StaticBlockSingleton.getInstance();
+//        System.out.println("Instance 5 hash:" + instance5.hashCode());
+//        System.out.println("Instance 6 hash:" + instance6.hashCode());
+        
+        LazyInitializedSingleton instance7 = LazyInitializedSingleton.getInstance();
+        LazyInitializedSingleton instance8 = LazyInitializedSingleton.getInstance();
+        System.out.println("Instance 7 hash:" + instance7.hashCode());
+        System.out.println("Instance 8 hash:" + instance8.hashCode());
         
 	}
 	
