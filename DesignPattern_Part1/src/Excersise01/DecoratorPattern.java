@@ -1,4 +1,4 @@
-package design_pattern;
+package Excersise01;
 class DecoratorPattern {
     private Order order;
 

@@ -1,4 +1,4 @@
-package design_pattern;
+package Excersise01;
 class Order {
     private StatePattern statePattern;
 

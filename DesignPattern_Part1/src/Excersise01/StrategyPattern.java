@@ -1,4 +1,4 @@
-package design_pattern;
+package Excersise01;
 class StrategyPattern {
     public void execute(String action) {
         switch (action) {
