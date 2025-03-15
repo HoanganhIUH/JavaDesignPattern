@@ -8,7 +8,6 @@ public class Subject {
     private List<Observer> observers = new ArrayList<>();
     private String state;
 
-    // Thêm Observer vào danh sách
     public void addObserver(Observer observer) {
         observers.add(observer);
     }
