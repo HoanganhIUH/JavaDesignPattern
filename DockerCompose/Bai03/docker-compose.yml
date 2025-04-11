@@ -1,7 +1,7 @@
 services:
   mysql:
     image: mysql:8.0
-    platform: linux/amd64  # Hoặc: linux/arm64 nếu bạn dùng Mac M1/M2 hoặc ARM
+    platform: linux/amd64  
     container_name: mysql
     environment:
       MYSQL_ROOT_PASSWORD: rootpassword
@@ -15,7 +15,7 @@ services:
 
   phpmyadmin:
     image: phpmyadmin/phpmyadmin
-    platform: linux/amd64  # Thêm dòng này luôn cho chắc
+    platform: linux/amd64  
     container_name: my-phpmyadmin
     environment:
       PMA_HOST: mysql
